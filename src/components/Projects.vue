@@ -1,6 +1,6 @@
 <template>
   <div class="margin-text">
-    <h1 class="title is-1">Projects</h1>
+    <h1 class="title is-1"><span class="underlined">Projects</span></h1>
 
     <section class="hero">
       <div class="hero-body">
