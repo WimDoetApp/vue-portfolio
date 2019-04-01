@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import helper from './components/mixins/helper'
-import linkify from 'Vue-linkify'
+import linkify from 'vue-linkify'
 
 
 require('./assets/stijl.scss')
