@@ -4,12 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import helper from './components/mixins/helper'
+import linkify from 'Vue-linkify'
+
 
 require('./assets/stijl.scss')
 
 Vue.config.productionTip = false
 
 Vue.mixin(helper)
+Vue.directive('linkified', linkify)
 
 /* eslint-disable no-new */
 new Vue({

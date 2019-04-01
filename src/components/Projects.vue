@@ -1,6 +1,8 @@
 <template>
   <div class="margin-text">
-    <h1 class="title is-1"><span class="underlined">Projects</span></h1>
+    <h1 class="title is-1">
+      <span class="underlined">Projects</span>
+    </h1>
 
     <section class="hero">
       <div class="hero-body">
@@ -17,10 +19,8 @@
                 <div class="card-content">
                   <div class="content">
                     <h3 class="title is-3">Moviehut</h3>
-                    
-                    <p>
-                      Moviehut is a Cordova android app.
-                    </p>
+
+                    <p>Moviehut is a Cordova android app.</p>
 
                     <a class="button is-ninja" href="moviehut">GO</a>
 
@@ -50,7 +50,7 @@
 
                     <p>Wikibot is a simple twitter bot</p>
 
-                    <a class="button is-ninja" href="wikibot">GO</a>
+                    <router-link to="/wikibot" class="button is-ninja">GO</router-link>
 
                     <div class="tags are-medium project-tags">
                       <span class="tag">Javascript</span>

@@ -6,15 +6,24 @@ import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects'
 import Resume from '@/components/Resume'
 import ResumeDutch from '@/components/ResumeDutch'
+import Wikibot from '@/components/Wikibot'
+import NotFound from '@/components/NotFound'
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/404',
+      component: NotFound
+    },
+    {
+      path: '*',
+      redirect: '/404'
     },
     {
       path: '/info',
@@ -40,6 +49,11 @@ export default new Router({
       path: '/resumeDutch',
       name: 'ResumeDutch',
       component: ResumeDutch
+    },
+    {
+      path: '/wikibot',
+      name: 'Wikibot',
+      component: Wikibot
     }
   ]
 })

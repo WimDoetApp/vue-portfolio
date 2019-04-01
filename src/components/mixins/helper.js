@@ -10,10 +10,5 @@ export default {
       burger.classList.remove('is-active')
       main.classList.remove('is-active')
     }
-  },
-  data: function () {
-    return {
-      useTemplate: true,
-    }
   }
 };

@@ -43,10 +43,6 @@
 
 <script>
 export default {
-  name: "Info",
-  mounted(){
-      this.$data.useTemplate = false;
-      console.log(this.$data.useTemplate)
-  }
+  name: "Info"
 };
 </script>
