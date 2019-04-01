@@ -12,7 +12,7 @@
               <div class="card card-corners">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img src="../assets/images/moviehut.png" alt="MovieHut">
+                    <img src="../assets/images/moviehut.PNG" alt="MovieHut">
                   </figure>
                 </div>
 
@@ -40,7 +40,7 @@
               <div class="card card-corners">
                 <div class="card-image">
                   <figure class="image is-4by3">
-                    <img src="../assets/images/wikibot.png" alt="WikiBot">
+                    <img src="../assets/images/wikibot.PNG" alt="WikiBot">
                   </figure>
                 </div>
 
