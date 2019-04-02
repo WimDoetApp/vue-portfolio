@@ -22,7 +22,7 @@
 
                     <p>Moviehut is a Cordova android app.</p>
 
-                    <a class="button is-ninja" href="moviehut">GO</a>
+                    <a class="button is-ninja" href="https://wim-moviehut.herokuapp.com/" target="_blank">GO</a>
 
                     <div class="tags are-medium project-tags">
                       <span class="tag">Cordova</span>
